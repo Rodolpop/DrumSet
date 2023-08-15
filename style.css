@@ -30,4 +30,15 @@
     min-width: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0,0,0,.3);
+    background-image: url("img/kick.jpg");
+    background-size: cover;
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    color:pink;
+ }
+
+ .btn:active {
+    background-size: 105%;
  }
