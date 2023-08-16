@@ -5,15 +5,15 @@
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background-color: pink;
+    background-color: rgb(121, 154, 124);
  }
 
  h1 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 4px;
-    color: white;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0,.3);
+    color: rgb(65, 79, 19);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
     white-space: nowrap;
  }
 
@@ -30,13 +30,13 @@
     min-width: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0,0,0,.3);
-    background-image: url("img/kick.jpg");
+    background-image: url("img/");
     background-size: cover;
     cursor: pointer;
  }
 
  .btn:hover {
-    color:pink;
+    color:rgb(31, 6, 173);
  }
 
  .btn:active {
