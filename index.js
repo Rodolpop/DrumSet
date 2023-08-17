@@ -1,5 +1,5 @@
 
-const kits = ["crash", "kick", "snare", "tom"];
+const kits = ["CRASH", "KICK", "SNARE", "TOM"];
 
 const containerE1 = document.querySelector(".container");
 
@@ -10,6 +10,7 @@ kits.forEach((kit) => {
      btnE1.classList.add("btn");
 
      btnE1.innerText = kit;
+
 
      btnE1.style.backgroundImage = "url (img/" + kit + ".jpg)";
 
